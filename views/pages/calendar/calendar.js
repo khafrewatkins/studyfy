@@ -1,4 +1,4 @@
-var cal = {
+   cal = {
   // (A) PROPERTIES
   mName : ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], // Month Names
   data : null, // Events for the selected period
@@ -6,6 +6,8 @@ var cal = {
   sMth : 0, // Current selected month
   sYear : 0, // Current selected year
   sMon : false, // Week start on Monday?
+
+  
 
   // (B) DRAW CALENDAR FOR SELECTED MONTH
   list : function () {

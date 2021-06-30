@@ -1,6 +1,7 @@
 let speech = new SpeechSynthesisUtterance();
 speech.lang = "en";
 
+
 let voices = [];
 window.speechSynthesis.onvoiceschanged = () => {
   voices = window.speechSynthesis.getVoices();
